@@ -4,6 +4,7 @@
 #include "../include/select/Sbuttons.hpp"
 #include "../include/game/player_stats.hpp"
 #include "../include/standardUI/globalC.hpp"
+
 void selectScr::selectScrUpdate(){
    Rectangle selectPanel{128, 80, 1024, 600};
    DrawRectangleRounded(selectPanel, 0.2, 100, DARKGRAY);
